@@ -2,28 +2,26 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: blank # if blank, full name will be used instead (Carlos A. Lopez-Villalobos)
+first_name: Carlos
+middle_name: A.
+last_name: Lopez-Villalobos
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Puedes poner una pequeña nota aquí sobre cuál es la mejor forma de contactarte.
+description: >
+  Wind resource Assessment, mesoscale meteorological models, wind turbine aerodynamics, computational fluid dynamics.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website, wind-energy, cfd, meteorology
+lang: es # Cambiado a español para que las fechas y navegación por defecto usen tu idioma
+icon: ⚛️ # Puedes cambiar este emoji por otro si lo deseas
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
-
+url: https://Carlos-A-Lopez-Villalobos.github.io # Tu dominio real de GitHub Pages
+baseurl: "" # Al ser tu repositorio principal (tuusuario.github.io), debe quedar vacío "" para que apunte a la raíz
+last_updated: true # Activado para que muestre cuándo actualizaste el sitio por última vez
+impressum_path: 
+back_to_top: true
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
@@ -109,7 +107,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 analytics:
   # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
   # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-  google: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+  google: https://scholar.google.com/citations?hl=es&user=eLhx3bQAAAAJ&view_op=list_works&authuser=1&sortby=pubdate # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
   cronitor: # cronitor RUM analytics site ID (format: XXXXXXXXX)
   pirsch: # your Pirsch analytics site ID (length 32 characters)
   openpanel: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
@@ -122,8 +120,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Carlos A. Lopez-Villalobos # blog_name will be displayed in your blog page
+blog_description: Wind resource Assessment, mesoscale meteorological models, wind turbine aerodynamics, computational fluid dynamics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -341,8 +339,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Lopez-Villalobos]
+  first_name: [Carlos, A.]
 
   style: apa
   locale: en
