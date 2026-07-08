@@ -6,12 +6,14 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.png
+  image_circular: false # Recorta la imagen a circular si lo prefieres en true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><strong>ICAyCC, UNAM</strong></p>
+    <p>Responsable del grupo <em>Interacción Océano-Atmósfera</em></p>
+    <p><i class="fa-solid fa-graduation-cap"></i> <a href="https://www.atmosfera.unam.mx/ciencias-atmosfericas/interaccion-oceano-atmosfera/dr-carlos-alberto-lopez-villalobos/" target="_blank" rel="noopener">Perfil Institucional UNAM</a></p>
+    <p><i class="fa-solid fa-phone"></i> +52 55 5622 4076 Ext. 24044</p>
+    <p><i class="fa-solid fa-location-dot"></i> Circuito Investigación Científica s/n, C.U., Coyoacán, 04510, CDMX</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
