@@ -14,7 +14,7 @@ Mi labor docente tiende un puente entre la física fundamental de la mecánica d
    path="assets/img/lineasinves.png" 
    class="img-fluid rounded z-depth-1" 
    zoomable=true 
-   alt="Simulación CFD de capa límite atmosférica"
+   alt="Líneas de investigación desarrolladas en el ICAyCC-UNAM"
    caption="Figura 1: Líneas de investigación desarrolladas en el ICAyCC-UNAM." 
 %}
 
@@ -26,39 +26,32 @@ Mi labor docente tiende un puente entre la física fundamental de la mecánica d
       <source src="{{ '/assets/video/Turbina1' | relative_url }}" type="video/mp4">
     </video>
     <div class="caption text-center mt-2">
-      Animación 1: Evolución temporal de los vórtices de punta de pala modelados mediante CFD.
+      Figura 2: Evolución temporal de la estela mediante dinámica de fluidos computacional.
     </div>
   </div>
 </div>
+
+{% include figure.liquid 
+   path="assets/img/analytical_alan.gif" 
+   class="img-fluid rounded z-depth-1" 
+   zoomable=false 
+   alt="Animación de dinámica de fluidos"
+   caption="Figura 3: Simulación numérica de la capa límite atmosférica interactuando con el rotor de un aerogenerador." 
+%}
+
+{% include figure.liquid 
+   path="assets/img/vtkWindFarmHorizontal.gif" 
+   class="img-fluid rounded z-depth-1" 
+   zoomable=false 
+   alt="Simulación CFD de capa límite atmosférica"
+   caption="Figura 4: Simulación numérica mediante CFD del perfil de velocidades del viento y turbulencia en terrenos complejos." 
+%}
+
 
 {% include figure.liquid 
    path="assets/img/Natconv0.png" 
    class="img-fluid rounded z-depth-1" 
    zoomable=true 
    alt="Simulación CFD de capa límite atmosférica"
-   caption="Figura 1: Líneas de investigación desarrolladas en el ICAyCC-UNAM." 
-%}
-
-{% include figure.liquid 
-   path="assets/img/simulacion_eolica.gif" 
-   class="img-fluid rounded z-depth-1" 
-   zoomable=false 
-   alt="Animación de dinámica de fluidos"
-   caption="Animación: Simulación numérica de la capa límite atmosférica interactuando con un perfil aerodinámico." 
-%}
-
-{% include figure.liquid 
-   path="assets/img/windturbinewake.png" 
-   class="img-fluid rounded z-depth-1" 
-   zoomable=true 
-   alt="Simulación CFD de capa límite atmosférica"
-   caption="Figura 1: Simulación numérica mediante CFD del perfil de velocidades del viento y turbulencia en terrenos complejos." 
-%}
-
-{% include figure.liquid 
-   path="assets/img/WRF_LES.png" 
-   class="img-fluid rounded z-depth-1" 
-   zoomable=true 
-   alt="Simulación CFD de capa límite atmosférica"
-   caption="Figura 1: Simulación numérica mediante CFD del perfil de velocidades del viento y turbulencia en terrenos complejos." 
+   caption="Figura 5: Convección Natural Seca." 
 %}
