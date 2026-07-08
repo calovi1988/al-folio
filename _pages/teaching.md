@@ -8,8 +8,16 @@ nav_order: 6
 calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+Mi labor docente tiende un puente entre la física fundamental de la mecánica de medios continuos y las herramientas computacionales avanzadas. Los cursos se centran en la formulación matemática de la dinámica de fluidos (Navier-Stokes) y en la aplicación de la dinámica de fluidos computacional (CFD) y de modelos de mesoescala para resolver problemas aerodinámicos y atmosféricos reales en el ámbito de la energía eólica.
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+{% include figure.liquid 
+   path="assets/img/cfd_wind_simulation.png" 
+   class="img-fluid rounded z-depth-1" 
+   zoomable=true 
+   alt="Simulación CFD de capa límite atmosférica"
+   caption="Figura 1: Simulación numérica mediante CFD del perfil de velocidades del viento y turbulencia en terrenos complejos." 
+%}
+
+#{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
 
 {% include courses.liquid %}
