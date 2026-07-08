@@ -18,6 +18,4 @@ Mi labor docente tiende un puente entre la física fundamental de la mecánica d
    caption="Figura 1: Simulación numérica mediante CFD del perfil de velocidades del viento y turbulencia en terrenos complejos." 
 %}
 
-#{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
-
 {% include courses.liquid %}
