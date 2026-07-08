@@ -40,6 +40,14 @@ Mi labor docente tiende un puente entre la física fundamental de la mecánica d
 %}
 
 {% include figure.liquid 
+   path="assets/img/simulacion_eolica.gif" 
+   class="img-fluid rounded z-depth-1" 
+   zoomable=false 
+   alt="Animación de dinámica de fluidos"
+   caption="Animación: Simulación numérica de la capa límite atmosférica interactuando con un perfil aerodinámico." 
+%}
+
+{% include figure.liquid 
    path="assets/img/windturbinewake.png" 
    class="img-fluid rounded z-depth-1" 
    zoomable=true 
