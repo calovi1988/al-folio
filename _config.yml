@@ -17,8 +17,8 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website, wind-energy
 lang: es # Cambiado a español para que las fechas y navegación por defecto usen tu idioma
 icon: ⚛️ # Puedes cambiar este emoji por otro si lo deseas
 
-url: https://Carlos-A.-Lopez-Villalobos.github.io # Tu dominio real de GitHub Pages
-baseurl: "" # Al ser tu repositorio principal (tuusuario.github.io), debe quedar vacío "" para que apunte a la raíz
+url: https://calovi1988.github.io
+baseurl: /al-folio
 last_updated: true # Activado para que muestre cuándo actualizaste el sitio por última vez
 impressum_path: 
 back_to_top: true
