@@ -20,16 +20,13 @@ Mi labor docente tiende un puente entre la física fundamental de la mecánica d
 
 {% include courses.liquid %}
 
-<div class="row justify-content-center">
-  <div class="col-sm-10 mt-3">
-    <video class="img-fluid rounded z-depth-1" autoplay loop muted playsinline width="100%">
-      <source src="{{ '/assets/video/Turbina1' | relative_url }}" type="video/mp4">
-    </video>
-    <div class="caption text-center mt-2">
-      Figura 2: Evolución temporal de la estela mediante dinámica de fluidos computacional.
-    </div>
-  </div>
-</div>
+{% include figure.liquid 
+   path="assets/img/Turbina1.gif" 
+   class="img-fluid rounded z-depth-1" 
+   zoomable=false 
+   alt="Animación de dinámica de fluidos"
+   caption="Figura 2: Evolución temporal de la estela mediante dinámica de fluidos computacional." 
+%}
 
 {% include figure.liquid 
    path="assets/img/analytical_alan.gif" 
