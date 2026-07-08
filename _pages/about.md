@@ -29,8 +29,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Dr. Carlos A. Lopez-Villalobos, a researcher and specialist in Wind Energy Engineering, Mesoscale Meteorological Modeling, and Computational Fluid Dynamics (CFD). My work focuses on bridging the gap between atmospheric science and wind turbine aerodynamics to optimize wind resource assessment and accelerate the transition to clean energy.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Looking for Collaborators & Students: I lead research initiatives aimed at solving complex aerodynamic and meteorological challenges. If you are a researcher looking to collaborate on high-impact renewable energy projects or a motivated student eager to master CFD, wind turbine technologies, and atmospheric models, my research group offers a hands-on, cutting-edge environment to push the boundaries of wind science. Let’s connect and build the future of energy together.
